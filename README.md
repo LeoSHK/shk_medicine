@@ -2,18 +2,24 @@
 
 Sistema compativel com vRPex
 
-# Descrição
-Sistema que gerencia as partes do corpo do personagem dando mais imersão no RP de Emergência.
+# Descrição </br>
+Sistema que gerencia as partes do corpo do personagem dando mais imersão no RP de Emergência.</br></br>
 
 -- Sistema de Recepção com anuncio por voz <br/>
 -- Sistema de Raio-X que informa todas as partes feridas via NUI. <br/>
 -- Sistema de Projeteis alojados, tem uma chance de ficar alojado nas partes do corpo e é possivel fazer uma cirurgia com transfusão de sangue. <br/>
 -- Sistema de tratamentos com gesso ou medicamentos, aplicando reações ao personagem conforme o tipo de Ferimento/Fratura. <br/>
 -- Sistema de macas está incluso no sistema, caso você utiliza um, melhor desabilita-lo caso usar esse sistema. <br/>
+-- Sistema de AUDIO (vRPex) nos equipamentos de Exames, trazendo mais realismo.
 
+# Instalação
+
+Adicione em seu server.cfg ensure nas pastas do projeto:
+
+ensure shk_medicine </br>
+ensure shk_audio </br>
 
 # Itens para criar.
-
 Criar itens em sua base:<br/>
 bolsasanguevazia - Bolsa de Sangue vazia <br/>
 bolsasangue - Bolsa com Sangue <br/>
