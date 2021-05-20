@@ -20,7 +20,7 @@ ensure shk_medicine </br>
 ensure shk_audio </br>
 
 # Itens para criar.
-Criar itens em sua base:<br/>
+Criar itens em sua base: <br/></br>
 bolsasanguevazia - Bolsa de Sangue vazia <br/>
 bolsasangue - Bolsa com Sangue <br/>
 morfina - Morfina <br/>
@@ -83,5 +83,5 @@ quadril - remove projetil no quadril <br/> <br/>
 
 # Reações do personagem <br/> <br/>
 Quando o personagem começar a cair, é porque ele está com um indice de ferimento alto nas pernas, so verificar no raiox. <br/>
-Ao usar a bota, essas quedas param instantaneamentes. <br/>
+Ao usar a bota, essas quedas param instantaneamentes, mas a cura completa só é possivel analisar via raio-x. <br/>
 
