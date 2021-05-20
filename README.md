@@ -66,7 +66,7 @@ Necessário ter o item: bolsasanguevazia | Bolsa de sangue vazia <br/> <br/>
 /transfusao [iniciar/cancelar] <br/>
 Procedimento necessário para iniciar durante uma cirurgia, é obrigatorio ter a bolsa de sangue cheia: bolsadesangue <br/> <br/>
 
-# Cirurgias <br/> <br/>
+# Cirurgias <br/>
 
 A cirurgia remove o projetil alojado na parte que deseja. Para verificar no diagnostico, faça um exame de Raio-X. <br/> <br/>
 
