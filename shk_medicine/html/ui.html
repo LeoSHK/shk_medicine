@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4 /strict.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+
+    <body>
+
+        <div id="xray" class="exame" style="display: none;">
+            <div class="panel panel-default" style="width: 392px;">
+                <img src="images/bloods/header_bloodcount.png" width="392" height="82" alt="">
+                <h3 id="xray-act-title"></h3>
+
+                <div class="panel-body">
+                    <table id="Table_01" width="287" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                        <tr>
+                            <td colspan="2">
+                                <img id="body_01" src="images/raiox/body_01.png" width="102" height="67" alt="" /></td>
+                            <td colspan="4">
+                                <img id="head" src="images/raiox/head.png" width="81" height="67" alt="" /></td>
+                            <td colspan="2">
+                                <img id="body_03" src="images/raiox/body_03.png" width="103" height="67" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="67" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img id="body_04" src="images/raiox/body_04.gif" width="102" height="10" alt="" /></td>
+                            <td colspan="4">
+                                <img id="neck" src="images/raiox/neck.png" width="81" height="10" alt="" /></td>
+                            <td colspan="2">
+                                <img id="body_05" src="images/raiox/body_05.png" width="103" height="10" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="10" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="3">
+                                <img id="rarm" src="images/raiox/rarm.png" width="102" height="125" alt="" /></td>
+                            <td>
+                                <img id="upper_body01" src="images/raiox/upper_body01.png" width="35" height="114" alt="" /></td>
+                            <td colspan="2">
+                                <img id="spine" src="images/raiox/spine.png" width="12" height="114" alt="" /></td>
+                            <td>
+                                <img id="upper_body02" src="images/raiox/upper_body02.png" width="34" height="114" alt="" /></td>
+                            <td colspan="2" rowspan="2">
+                                <img id="larm" src="images/raiox/larm.png" width="103" height="122" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="114" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" rowspan="3">
+                                <img id="lower_body" src="images/raiox/lower_body.png" width="81" height="37" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="8" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5">
+                                <img id="body_13" src="images/raiox/body_13.png" width="66" height="52" alt="" /></td>
+                            <td rowspan="3">
+                                <img id="lhand" src="images/raiox/lhand.png" width="37" height="31" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="3" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                <img id="rhand" src="images/raiox/rhand.png" width="33" height="28" alt="" /></td>
+                            <td rowspan="3">
+                                <img id="body_16" src="images/raiox/body_16.png" width="69" height="44" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="26" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="4">
+                                <img id="rleg" src="images/raiox/rleg.png" width="41" height="226" alt="" /></td>
+                            <td colspan="2" rowspan="4">
+                                <img id="lleg" src="images/raiox/lleg.png" width="40" height="226" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="2" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img id="rfinger" src="images/raiox/rfinger.png" width="33" height="16" alt="" /></td>
+                            <td rowspan="2">
+                                <img id="lfinger" src="images/raiox/lfinger.png" width="37" height="21" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="16" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="3">
+                                <img id="body_21" src="images/raiox/body_21.png" width="102" height="243" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="5" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="2">
+                                <img id="body_22" src="images/raiox/body_22.gif" width="103" height="238" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="203" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img id="rfoot" src="images/raiox/rfoot.png" width="41" height="35" alt="" /></td>
+                            <td colspan="2">
+                                <img id="lfoot" src="images/raiox/lfoot.png" width="40" height="35" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="1" height="35" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="33" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="69" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="35" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="6" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="6" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="34" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="66" height="1" alt="" /></td>
+                            <td>
+                                <img src="images/raiox/spacer.gif" width="37" height="1" alt="" /></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <div class="row" style="margin: 10px 0;">
+                        <div class="col-md-6 col-md-offset-3">
+                            <a href="#" id="act_menu_back" class="btn btn-success btn-xs btn-block">Voltar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="xray-menu" class="exame" style="display: none;">
+            <div class="panel panel-default">
+                <img src="images/bloods/header_bloodcount.png" width="392" height="82" alt="">
+                <h3>Raio-X</h3>
+                <div class="panel-body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="all"><i
+                class="glyphicon glyphicon-chevron-right"></i> Corpo Inteiro</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="head"><i
+                class="glyphicon glyphicon-chevron-right"></i> Cabeça e pescoço</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="upper_body"><i
+                class="glyphicon glyphicon-chevron-right"></i> Tronco</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="lower_body"><i
+                class="glyphicon glyphicon-chevron-right"></i> Quadril</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="larm"><i
+                class="glyphicon glyphicon-chevron-right"></i> Braço Esquerdo</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="rarm"><i
+                class="glyphicon glyphicon-chevron-right"></i> Braço Direito</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="lleg"><i
+                class="glyphicon glyphicon-chevron-right"></i> Perna Esquerdo</a></li>
+                        <li role="presentation"><a href="#" class="act_menu" data-exame="rleg"><i
+                class="glyphicon glyphicon-chevron-right"></i> Perna Direito</a></li>
+                    </ul>
+                    <div class="row" style="margin: 10px 0;">
+                        <div class="col-md-6 col-md-offset-3">
+                            <a href="#" class="btn btn-success btn-xs btn-block act_menu_close">Fechar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="reception-menu" class="exame" style="display:none; width: 600px !important;">
+            <div class="panel panel-default">
+                <img src="images/bloods/header_bloodcount.png" width="392" height="82" alt="">
+                <h3>Recepção</h3>
+                <div class="panel-body" id="reception-list">
+
+                </div>
+                <div class="row" style="margin: 10px 0;">
+                    <div class="col-md-6 col-md-offset-3">
+                        <a href="#" class="btn btn-success btn-xs btn-block act_menu_close">Fechar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="xray-act" class="exame" style="display: none;">
+            <div class="panel panel-default">
+                <img src="images/bloods/header_bloodcount.png" width="392" height="82" alt="">
+                <h3 id="xray-act-title"></h3>
+
+                <div class="panel-body">
+                    <table class="table_blood" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>Nome: <span id="actbc_username"></span></td>
+                            <td>Idade: <span id="actbc_age"></span></td>
+                        </tr>
+                        <tr>
+                            <td>RG: <span id="actbc_rg"></span></td>
+                            <td>Passaporte: <span id="actbc_passp"></span></td>
+                        </tr>
+                    </table>
+                    <p>Este exame pode, embora raramente, apresentar resultados falso-positivos ou falso-negativos, que é característica do método, em caso de incompatibilidade clínica, a critério do seu médico, deverão ser feitos testes confirmatórios.
+                    </p>
+                    <p class="text-danger">* ESTE EXAME DEVE SER INTERPRETADO PELO SEU MÉDICO *</p>
+                    <div id="xray-act-image" class="xray-image img-circle"></div>
+                    <table class="table_blood" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>Dr(a) <span id="actbc_doctorname"></span><br> <span id="actbc_doctorjob"></span></td>
+                        </tr>
+                    </table>
+                    <div class="row" style="margin: 10px 0;">
+                        <div class="col-md-6 col-md-offset-3">
+                            <a href="#" id="act_menu_back" class="btn btn-success btn-xs btn-block">Voltar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bag_blood" style="display: none;">
+            <div class="empty_bag"></div>
+            <div id="blood_bag"></div>
+        </div>
+        <div id="bag_blood_trans" style="display: none;">
+            <div class="empty_bag"></div>
+            <div class="blood_bag_trans"></div>
+        </div>
+        <div id="bag_soro" style="display: none;">
+            <div class="empty_bag"></div>
+            <div id="soro_bag"></div>
+        </div>
+        <div id="bag_soro_leoerd" style="display: none;">
+            <div class="empty_bag"></div>
+            <div id="soro_bag_leoerd"></div>
+        </div>
+        <div id="bottle_blood" style="display: none;">
+            <div id="empty_bottle"></div>
+            <div id="blood_bottle"></div>
+        </div>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/scripts.js" type="text/javascript"></script>
+    </body>
+
+</html>

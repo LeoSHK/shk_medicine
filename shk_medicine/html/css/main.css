@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8;
+}
+
+a {
+    color: #000000 !important;
+}
+
+#Table_01 {
+    border-collapse: collapse;
+    height: 489px;
+    background-color: beige;
+}
+
+#Table_01 td {
+    font-size: 0px;
+}
+
+#Table_01 img {
+    vertical-align: top;
+}
+
+#bag_blood,
+#bag_blood_trans,
+#bag_soro_leoerd {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 160px;
+    height: 296px;
+}
+
+#bag_soro {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 160px;
+    height: 296px;
+}
+
+#bottle_blood {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 60px;
+    height: 277px;
+}
+
+.empty_bag {
+    position: relative;
+    width: 160px;
+    height: 296px;
+    background: url("../images/bloods/bag_blood.png") no-repeat;
+    z-index: 100;
+}
+
+#empty_bottle {
+    position: relative;
+    width: 60px;
+    height: 277px;
+    background: url("../images/bloods/bottle_empty.png") no-repeat;
+    z-index: 100;
+}
+
+#blood_bag {
+    position: absolute;
+    width: 160px;
+    /* height: 316px; */
+    bottom: 0;
+    left: 0;
+    background: url("../images/bloods/bag_blood_a.png") no-repeat bottom;
+    z-index: -1;
+}
+
+.blood_bag_trans {
+    position: absolute;
+    width: 160px;
+    /* height: 316px; */
+    bottom: 0;
+    left: 0;
+    background: url("../images/bloods/bag_blood_a.png") no-repeat bottom;
+    z-index: -1;
+}
+
+#soro_bag {
+    position: absolute;
+    width: 160px;
+    /* height: 316px; */
+    bottom: 0;
+    left: 0;
+    background: url("../images/bloods/bag_soro_a.png") no-repeat bottom;
+    z-index: -1;
+}
+
+#soro_bag_leoerd {
+    position: absolute;
+    width: 160px;
+    /* height: 316px; */
+    bottom: 0;
+    left: 0;
+    background: url("../images/bloods/bag_soroleoerd_a.png") no-repeat bottom;
+    z-index: -1;
+}
+
+#blood_bottle {
+    position: absolute;
+    width: 60px;
+    /* height: 316px; */
+    bottom: 0;
+    left: 0;
+    background: url("../images/bloods/bottle_blood.png") no-repeat bottom;
+    z-index: -1;
+}
+
+.exame {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    margin: 4px;
+    width: 392px;
+    clear: both;
+    overflow: hidden;
+}
+
+.xray-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 6px;
+    /* background: url("../images/raiox/head_x.png") no-repeat center; */
+}
+
+.exame h3 {
+    color: cadetblue;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.exame p {
+    text-align: justify;
+    padding: 5px 20px;
+    font-size: 0.8em;
+    color: #1f1f1f;
+}
+
+.alert {
+    color: red;
+    font-size: 0.7em !important;
+}
+
+table {
+    color: #000000;
+    border: none;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+table td {
+    font-size: 0.8em;
+}
+
+.panel-default {
+    background-color: #FFFFFF !important;
+}
+
+.panel-body {
+    padding: 4px 10px !important;
+}
+
+.nav>li>a {
+    padding: 4px 15px !important;
+    font-size: 0.8em;
+}
+
+.blood-effect {
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+    box-shadow: inset 0 0 5px red;
+    animation: pulse 2.0s infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: inset 0 0 5px red;
+    }
+    50% {
+        box-shadow: inset 0 0 200px red;
+    }
+    100% {
+        box-shadow: inset 0 0 400px red;
+    }
+}
