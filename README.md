@@ -84,5 +84,5 @@ quadril - remove projetil no quadril <br/> <br/>
 # Reações do personagem <br/> <br/>
 Quando o personagem começar a cair, é porque ele está com um indice de ferimento alto nas pernas, so verificar no raiox. <br/>
 Ao usar a bota, essas quedas param instantaneamentes, mas a cura completa só é possivel analisar via raio-x. <br/>
-Ao braços machucados, impossibilita de equipar armas.
+Braços machucados, impossibilita de equipar armas.
 
