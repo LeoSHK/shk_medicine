@@ -78,6 +78,7 @@ cabeca - remove projetil na cabeça <br/>
 bracoesq - remove projetil no braco esquerdo <br/>
 bracodir - remove projetil braço direito <br/>
 pernaesq -  remove projetil perna esquerda <br/>
+pernadir -  remove projetil perna direita <br/>
 tronco - remove projetil no tronco <br/>
 quadril - remove projetil no quadril <br/> <br/>
 
