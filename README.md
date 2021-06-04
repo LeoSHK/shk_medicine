@@ -49,7 +49,7 @@ O Gesso ajuda na recuperação da parte do corpo aonde for aplicada, porem tem m
 
 Partes do corpo: <br/> <br/>
 
-superior - Cabeça,pescoço,coluna vertebral, tronco <br/>
+superior - Cabeça,pescoço,coluna vertebral, tronco e braços <br/>
 inferior - Pernas <br/>
 bota - Pés <br/>
 tala - Mãos <br/> <br/>
